@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.overlay {
+    background-color: rgb(1 28 36 / 86%);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.overlay-content {
+    display: flex;
+    justify-content: center;
+}
