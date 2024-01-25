@@ -1,29 +1,39 @@
+@import "normalize.css";
+
+.wrapper {
+  margin: 10px;
+}
+
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#search-field {
+  border: 1px solid black;
 }
 
 #images-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .thumbnail {
-    width: 250px;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .thumbnailContent {
-    color: white;
-    align-self: flex-end;
-    padding: 1rem;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.637);
+  color: white;
+  align-self: flex-end;
+  padding: 1rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
 }
